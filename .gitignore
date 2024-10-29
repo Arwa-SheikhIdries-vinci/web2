@@ -21,3 +21,4 @@ Thumbs.db
 desktop.ini
 # ignore the build directory
 build
+# package-lock.json
