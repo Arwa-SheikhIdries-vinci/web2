@@ -36,7 +36,7 @@ const defaultPizzas: Pizza[] = [
   },
 ];
 
-//throw "thisq is an error" with the error's message in the terminal and browser
+//throw "this is an error" with the error's message in the terminal and browser
 router.get("/error", (_req, _res, _next) => {
   throw new Error("This is an error");
   // equivalent of next(new Error("This is an error"));
